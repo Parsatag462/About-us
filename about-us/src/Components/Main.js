@@ -2,11 +2,11 @@ import * as React from 'react';
 import PropTypes from 'prop-types';
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
-import Divider from '@mui/material/Divider';
+// import Divider from '@mui/material/Divider';
 // import Markdown from './Markdown';
 
 function Main(props) {
-  const { posts, title } = props;
+  const { /*posts,*/ title } = props;
 
   return (
     <Grid

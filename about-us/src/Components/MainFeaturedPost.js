@@ -1,9 +1,9 @@
 import * as React from 'react';
 import PropTypes from 'prop-types';
 import Paper from '@mui/material/Paper';
-import Typography from '@mui/material/Typography';
+// import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
-import Link from '@mui/material/Link';
+// import Link from '@mui/material/Link';
 import Box from '@mui/material/Box';
 
 function MainFeaturedPost(props) {
@@ -39,7 +39,7 @@ function MainFeaturedPost(props) {
           <Box
             sx={{
               position: 'relative',
-              p: { xs: 3, md: 40 },
+              p: { xs: 0, md: 40 },
               pr: { md: 0 },
             }}
           >

@@ -87,7 +87,18 @@ const mainFeaturedPost = {
 //   ],
 // };
 
-const theme = createTheme();
+const theme = createTheme({
+  palette: {
+    primary: {
+      main: '#fafafa',
+      contrastText: '#000',
+    },
+    secondary: {
+      main: '#5583de',
+      contrastText: '#fff',
+    },
+  },
+});
 
 
 
@@ -104,7 +115,7 @@ export default function Blog() {
               <FeaturedPost key={post.title} post={post} />
             ))} }
           </Grid> */}
-          <Grid container spacing={5} sx={{ borderBottom:60, borderColor: 'white'}} >
+          <Grid container spacing={5} sx={{ borderBottom:60, borderColor: ' #62A2FF'}} >
             <Main title="“Our mission as an organization is to serve our neighbors as expert, caring partners in their health. We do this by creating innovative, effective, affordable systems of care that our neighbors value. This is our promise to you. We call it The ChristianaCare Way.”"/>
             {/* <Sidebar
               title={sidebar.title}

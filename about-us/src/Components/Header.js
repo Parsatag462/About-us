@@ -12,7 +12,7 @@ function Header(props) {
 
   return (
     <React.Fragment>
-      <Toolbar sx={{ borderTop: 50, borderBottom: 1, borderColor: 'white' }}>
+      <Toolbar sx={{ borderTop: 50, borderBottom: 1, borderColor: ' #62A2FF' }}>
         {/* <Button size="small">Subscribe</Button> */}
         <Typography
           component="h1"

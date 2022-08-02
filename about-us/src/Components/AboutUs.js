@@ -116,7 +116,8 @@ export default function Blog() {
             ))} }
           </Grid> */}
           <Grid container spacing={5} sx={{ borderBottom:60, borderColor: ' #62A2FF'}} >
-            <Main title="“Our mission as an organization is to serve our neighbors as expert, caring partners in their health. We do this by creating innovative, effective, affordable systems of care that our neighbors value. This is our promise to you. We call it The ChristianaCare Way.”"/>
+            <Main title="“ At Care Differently, our mission is to reach those who need our help through this app.
+            Our mission as an organization is to serve our neighbors as expert, caring partners in their health. We do this by creating innovative, effective, affordable systems of care that our neighbors value. This is our promise to you. We call it The ChristianaCare Way.”"/>
             {/* <Sidebar
               title={sidebar.title}
               description={sidebar.description}
